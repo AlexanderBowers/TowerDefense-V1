@@ -3,3 +3,13 @@
 
 #include "TowerPlayerController.h"
 
+void ATowerPlayerController::BeginPlay() 
+{
+	Super::BeginPlay();
+
+}
+
+void ATowerPlayerController::Tick(float DeltaTime) 
+{
+	Super::Tick(DeltaTime);
+}
