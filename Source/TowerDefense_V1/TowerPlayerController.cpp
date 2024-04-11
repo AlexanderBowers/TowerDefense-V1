@@ -12,4 +12,5 @@ void ATowerPlayerController::BeginPlay()
 void ATowerPlayerController::Tick(float DeltaTime) 
 {
 	Super::Tick(DeltaTime);
+	//we can use this to attach the player to the tower.
 }
